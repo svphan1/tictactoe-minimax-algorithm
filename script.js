@@ -12,7 +12,7 @@ const winCombos = [
 	[6, 4, 2]
 ]
 
-const cells = document.querySelectorAll('.cell');
+const cells = document.querySelectorAll('.box');
 startGame();
 
 //  Start new game
