@@ -2,7 +2,7 @@
 Unbeatable AI Tic-tac-toe made with minimax algorithm
 ### Build: 
 HTML5, CSS3, JavaScript
-### Demo: 
+
 [Demo](http://unbeatable-tictactoe.surge.sh/)
 
 ### Screenshot:
