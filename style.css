@@ -1,23 +1,53 @@
+body {
+  background-color: rgb(243, 162, 86);
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.reset {
+  font-style: oblique;
+  color: #444;
+  position: absolute;
+  left: 50%;
+  margin-left: 12rem;
+  top: 22%;
+  font-size: 4rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.reset:hover {
+	transform: scale(1.1);
+	width: 0px;
+	color: smoke;
+}
+
 td {
   border: 2px solid #333;
   height: 100px;
   width: 100px; 
   text-align: center;
   vertical-align: middle;
-  font-family: "Comic Sans MS", cursive;
   font-size: 70px;
   cursor: pointer;
 }
 
 table {
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   position: absolute;
+  /* border-radius: 20px; */
   left: 50%;
   margin-left: -155px;
-  top: 100px;
+  top: 25%;
+  box-shadow: 5px 10px 40px #4e372128; 
 }
 
-table tr:first-child td {
+/* table tr:first-child td {
   border-top: 0;
 }
 
@@ -31,18 +61,18 @@ table tr td:first-child {
 
 table tr td:last-child {
   border-right: 0;
-}
+} */
 
 .endgame {
   display: none;
   width: 200px;
-  top: 120px;
+  top: 245px;
   background-color: rgba(205, 133, 63, 0.8);
   position: absolute;
   left: 50%;
   margin-left: -100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   border-radius: 5px;
   color: white;
