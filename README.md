@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-Unbeatable AI Tic-tac-toe made with minimax algorithm
+Unbeatable AI Tic-tac-toe made with minimax algorithm.
 ### Build: 
 HTML5, CSS3, JavaScript
 
